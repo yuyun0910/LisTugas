@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setting.SettingFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/title_setting"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/useicon"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/setting_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/user"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/account_clickDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="0"
+        android:text="@string/click"
+        android:textColor="#6c63ff"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/setting_username" />
+
+    <Button
+        android:id="@+id/setting_optionSetting"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/inter"
+        android:gravity="left|center_vertical"
+        android:letterSpacing="0"
+        android:theme="@style/btnSettingList"
+        android:paddingLeft="30dp"
+        android:text="@string/setting"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/setting_optionAbout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/inter"
+        android:gravity="left|center_vertical"
+        android:letterSpacing="0"
+        android:paddingLeft="30dp"
+        android:theme="@style/btnSettingList"
+        android:text="@string/about"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_optionSetting" />
+
+    <Button
+        android:id="@+id/setting_optionLogout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="left|center_vertical"
+        android:letterSpacing="0"
+        android:paddingLeft="30dp"
+        android:theme="@style/btnSettingList"
+        android:text="@string/Logout"
+        android:textAllCaps="false"
+        android:textColor="#FF3737"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_optionAbout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

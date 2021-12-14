@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1071819564319",
+    "firebase_url": "https://listugas-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "listugas-app",
+    "storage_bucket": "listugas-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071819564319:android:07fc2392572a12fff3fc2a",
+        "android_client_info": {
+          "package_name": "com.example.listugas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071819564319-66q4qsin3h07rbijk00vt8ol47bmv8mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGsmpcorlyR6ZKgBLjq6_uNV676OW1O7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071819564319-66q4qsin3h07rbijk00vt8ol47bmv8mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

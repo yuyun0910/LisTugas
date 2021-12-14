@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalenderViewCustom" parent="Theme.LisTugas">
+        <item name="colorAccent">@color/yellow_100</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:weekNumberColor">@color/purple</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/yellow_100</item>
+    </style>
+
+    <style name="CalenderViewUnfocusedMonthDateColor" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black_title</item>
+    </style>
+</resources>
